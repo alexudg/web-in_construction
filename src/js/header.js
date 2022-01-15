@@ -18,7 +18,7 @@ export class MainHeader extends HTMLElement {
                 }
                 
                 header>a>img {
-                    width: 100px;                    
+                    height: 55px;                    
                 }
                 
                 header>nav {
