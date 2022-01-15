@@ -1,0 +1,17 @@
+@import url('./main.css');
+.phone-line {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.fa-whatsapp-square {
+    color: green;
+}
+
+
+@media screen and (max-width: 640px) {
+    iframe {
+        width: 95%;
+    }
+}

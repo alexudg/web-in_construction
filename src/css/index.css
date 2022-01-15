@@ -1,0 +1,19 @@
+@import url('main.css');
+.title {
+    font-size: 24px;
+}
+
+.react {
+    /* background-color: yellow; */
+    width: 192px;
+    animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
