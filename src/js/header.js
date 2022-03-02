@@ -41,6 +41,7 @@ export class MainHeader extends HTMLElement {
                 <nav>
                     <a class="btnHome" href="index.html">Inicio</a>
                     <a class="btnContact" href="contact.html">Contacto</a>
+                    <a class="btnDownloads" href="downloads.html">Descargas</a>
                     <a class="btnInput" href="input.html">Ingresar</a>
                 </nav>
             </header>`;
