@@ -1,5 +1,5 @@
-.wrapper {
-    /* border: 1px solid blue; */
+.card__container {
+    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -13,6 +13,13 @@
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 0 3px grey;
+}
+
+.card__title {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card p {
