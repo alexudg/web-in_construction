@@ -1,0 +1,5 @@
+### GET
+GET http://gucitex.com.mx/test/test.php
+
+###
+GET http://gucitex.com.mx/web-damaxboutique/backend/index.php?fn=getAllCategories
