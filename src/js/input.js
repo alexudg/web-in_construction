@@ -25,7 +25,8 @@ btnClickme.onclick = async () => {
             headers: {
                 'Content-Type': 'application/json'
             },
-            referrerPolicy: 'origin-when-cross-origin'
+            //referrerPolicy: 'origin-when-cross-origin'
+            referrerPolicy: 'unsafe-url'
         })
         .then(res => res.text())
         .catch(error => console.log('error:', error))
