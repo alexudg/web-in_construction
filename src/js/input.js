@@ -17,7 +17,7 @@ btnClickme.onclick = async () => {
     // })
     // .catch(error => console.log('error:', error))
 
-    const data = await fetch('https://cors-anywhere.herokuapp.com/http://www.gucitex.com.mx/backend/index.php?fn=getAllCategories',
+    const data = await fetch('https://cors-anywhere.herokuapp.com/http://www.gucitex.com.mx/web-damaxboutique/backend/index.php?fn=getAllCategories',
         //const data = await fetch('http://puntoplanet.cu.ma/test.php',
         //const data = await fetch('https://jsonplaceholder.typicode.com/todos',
         {
