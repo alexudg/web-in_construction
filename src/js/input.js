@@ -24,10 +24,10 @@ btnClickme.onclick = async () => {
         {
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json',
-                origin: 'cuidatusventas.com.mx'
+                'Content-Type': 'application/json'
+                //origin: 'cuidatusventas.com.mx'
             },
-            mode: 'no-cors'
+            //mode: 'no-cors'
             //referrerPolicy: 'origin-when-cross-origin'
             //referrerPolicy: 'unsafe-url'
         })
