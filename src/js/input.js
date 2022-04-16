@@ -17,16 +17,17 @@ btnClickme.onclick = async () => {
     // })
     // .catch(error => console.log('error:', error))
 
-    const data = await fetch('http://gucitex.com.mx/web-damaxboutique/backend/index.php?fn=getAllCategories',
+    const data = await fetch('https://cors-anywhere.herokuapp.com/gucitex.com.mx/web-damaxboutique/backend/index.php?fn=getAllCategories',
         //const data = await fetch('http://puntoplanet.cu.ma/test.php',
         //const data = await fetch('https://jsonplaceholder.typicode.com/todos',
         {
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json'
-            },
+                'Content-Type': 'application/json',
+                origin: 'cuidatusventas.com.mx'
+            }
             //referrerPolicy: 'origin-when-cross-origin'
-            referrerPolicy: 'unsafe-url'
+            //referrerPolicy: 'unsafe-url'
         })
         .then(res => res.text())
         .catch(error => console.log('error:', error))
